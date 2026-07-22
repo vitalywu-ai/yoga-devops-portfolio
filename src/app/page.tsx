@@ -1,9 +1,9 @@
 import { About } from "@/components/sections/about";
-import { Contact } from "@/components/sections/contact";
 import { Hero } from "@/components/sections/hero";
 import { Journey } from "@/components/sections/journey";
 import { Projects } from "@/components/sections/projects";
 import { Skills } from "@/components/sections/skills";
+import Contactform from '@/components/Contactform'; // Наша рабочая форма
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Journey />
-      <Contact />
+      <Contactform /> {/* Форма с отправкой сообщений в БД */}
     </>
   );
 }

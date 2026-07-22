@@ -56,7 +56,7 @@ Replace `"Your Name"` in the Hero section and update the About section details w
 
 ## Sections
 
-1. **Hero** — Name, title, and call-to-action
+1. **Hero** — Vitaly, title, and call-to-action
 2. **About Me** — Personal story blending DevOps and yoga
 3. **Skills** — Categorized: AI Tools, Cloud & IaC, Programming, Other
 4. **Projects** — 3 placeholder project cards

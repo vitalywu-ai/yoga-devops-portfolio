@@ -78,7 +78,7 @@ export function Hero() {
 
         <FadeIn delay={0.3}>
           <h1 className="mb-6 font-serif text-5xl leading-[1.1] font-semibold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Vitaly</span>
           </h1>
         </FadeIn>
 
