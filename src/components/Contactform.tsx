@@ -30,7 +30,7 @@ export default function ContactForm() {
 
   return (
     <section className="py-12 px-6 max-w-lg mx-auto bg-gray-900 rounded-xl my-10 text-white shadow-lg">
-      <h2 className="text-2xl font-bold mb-6 text-center text-blue-400">Get in Touch</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center text-green-400">Get in Touch</h2>
       
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
@@ -50,7 +50,7 @@ export default function ContactForm() {
           <input
             type="email"
             required
-            className="w-full p-2.5 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500"
+            className="w-full p-2.5 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-green-500"
             placeholder="your.email@example.com"
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
